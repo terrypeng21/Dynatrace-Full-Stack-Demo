@@ -17,15 +17,17 @@ Download and install OneAgent on your host
 
 1. Go to **Search** > **Deploy OneAgent**.
 2. Select the platform you're going to monitor.
+![alt_text](https://github.com/terrypeng21/Dynatrace-Full-Stack-Demo/blob/main/images/Step%201%20OA.png)
 
-
-3. Follow the Deployment steps for the platform you're monitoring.
+4. Follow the Deployment steps for the platform you're monitoring.
    >For this guide I have chosen to install my OneAgent on a Linux Virtual Machine
-
-4. Create the Download token and store it in a safe location/password manager
+![alt_text](https://github.com/terrypeng21/Dynatrace-Full-Stack-Demo/blob/main/images/Step%202%20install%20OA.png)
+5. Create the Download token and store it in a safe location/password manager
    >Leave the default "Full-stack" monitoring mode as we will need it for full-stack monitoring of our environment.
-5. (Optional) Set the customized options for your host-groups, network zones and tags to plan the deployment of multiple entities
-   >This will not be covered in this guide as we will be monitoring a single host
-6. Download the installer and run it with **root** rights (steps 2-4 in the documentation)
+6. (**Optional**) Set the customized options for your host-groups, network zones and tags to plan the deployment of multiple entities. This will not be covered in this guide as we will be monitoring a single host
+7. Download the installer and run it with **root** rights (steps 2-4 in the documentation)
    >If there are strict firewall/network policies in place, you will need to whitelist the IPs found on the bottom of this page, such as this:
-   >Installation will be complete when you see a message like this:
+![alt_text](https://github.com/terrypeng21/Dynatrace-Full-Stack-Demo/blob/main/images/firewall%20policy.png)
+
+8. Installation will be complete when you see a message like this:
+![alt_text](https://github.com/terrypeng21/Dynatrace-Full-Stack-Demo/blob/main/images/Step%204%20Install%20OA.png)
