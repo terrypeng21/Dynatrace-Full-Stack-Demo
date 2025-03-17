@@ -3,7 +3,7 @@
 This repository contains a step-by-step guide for your introductory steps and best-practices in achieving full-stack observability with Dynatrace. 
 
 # What is full-stack monitoring in Dynatrace?
-Enter text here
+Dynatrace full-stack monitoring offers a comprehensive view of the entire application stack, including both infrastructure and application layers. This includes the application code, databases, APIs, and user experience as well as insights into end-to-end performance, including response times, error rates, and dependencies between different components.
 
 ### Pre-requisites
 
